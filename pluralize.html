@@ -8,22 +8,22 @@
 function pluralize(a){
 
 	if (a == "moose"){
-		console.log("moose");
+		return ("moose");
 	}
     else if (a == "automaton"){
-    	console.log("automata");
+    	return "automata";
     }
     else if (a == "mouse"){
-    	console.log("mice");
+    	return "mice";
     }
     else{
-    	console.log(a+"s")
+    	return (a+"s");
     }
 
 }
 var word = prompt("Word please:");
 
-pluralize(word);
+console.log(pluralize(word));
 
 </script>
 </body>
